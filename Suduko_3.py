@@ -2,6 +2,7 @@ import copy
 import time
 from collections import Counter
 
+"""!!! Note Until more functions are added this can only solve an easy problem for now. !!!"""
 
 class Puzzles:
 
@@ -14,6 +15,7 @@ class Puzzles:
                            [0, 0, 9, 3, 0, 0, 0, 7, 4],
                            [0, 4, 0, 0, 5, 0, 0, 3, 6],
                            [7, 0, 3, 0, 1, 8, 0, 0, 0]]
+    #  Completed
 
     Suduko_Input_Matrix_1 = [[0, 0, 0, 6, 0, 0, 4, 0, 0],
                            [7, 0, 0, 0, 0, 3, 6, 0, 0],
@@ -35,6 +37,17 @@ class Puzzles:
                            [0, 0, 9, 8, 0, 0, 0, 3, 6],
                            [0, 0, 0, 3, 0, 6, 0, 9, 0]
                            ]
+    
+    Suduko_Input_Matrix_Easy = [[0, 6, 1, 7, 2, 0, 3, 0, 0],
+                             [0, 7, 0, 0, 9, 0, 0, 0, 0],
+                            [0, 5, 3, 0, 4, 0, 0, 0, 1],
+                            [0, 0, 4, 9, 6, 0, 0, 0, 2],
+                            [3, 8, 5, 0, 0, 0, 6, 1, 9],
+                            [6, 0, 0, 0, 1, 3, 8, 0, 0],
+                            [1, 0, 0, 0, 5, 0, 9, 8, 0],
+                            [0, 0, 0, 0, 8, 0, 0, 2, 0],
+                            [0, 0, 9, 0, 3, 2, 7, 6, 0]]
+    #  Completed
 
 
 def cubic_array():
