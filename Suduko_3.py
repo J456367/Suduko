@@ -2,6 +2,7 @@ import copy
 import time
 
 """!!! Note Until more functions are added this can only solve an easy problem for now. !!!"""
+""" Note errors are still being found, each function performs up to 9**4 validations, Please Feel free to comment."""
 
 class Puzzles:
 
