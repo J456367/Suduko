@@ -2,6 +2,8 @@ import copy
 import time
 from collections import Counter
 
+"""Errors are still being found, validation processes are currently being built"""
+"""If an error is found please notify"
 
 class Puzzles:
 
